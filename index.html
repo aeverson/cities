@@ -1,4 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <ul id="cities">
-<li class="USA">Los gatos</li>
-<li class="USA">Los Angeles</li> <li class="USA">Salt Lake City</li> <li class="USA">New York</li>
+<li class="USA"><button id="myBtn">Los gatos</button></li>
+<li class="USA">Los Angeles</li> 
+<li class="USA">Salt Lake City</li>
+ <li class="USA">New York</li>
 </ul>
+
+<script>
+    document.getElementById("myBtn").addEventListener("click", myFunction);
+    
+    function myFunction() {
+      alert ("Hello World!");
+    }
+</script>
+
+<button id="myBtn">Try it</button>
+
+</body>
+</html>
