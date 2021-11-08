@@ -6,13 +6,14 @@
 <li class="USA">Los gatos</li>
 <li class="USA">Los Angeles</li> 
 <li class="USA">Salt Lake City</li>
- <li class="USA">New York</li>
+<li class="USA">New York</li>
 </ul>
 
 <script>
     document.querySelectorAll('.USA').forEach(item => {
         item.addEventListener('click', event => {
-            alert ("Hello World!");
+            // alert ("Hello World!");
+            console.log(item.innerHTML);
         })
     })
 </script>
